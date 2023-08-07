@@ -6,4 +6,5 @@ import com.skilldistillery.shutterspot.entities.PhotoSpot;
 
 public interface PhotoSpotRepository extends JpaRepository<PhotoSpot, Integer> {
 
+	
 }
