@@ -20,7 +20,7 @@ public class PhotoSpot {
 	private String state;
 
 	public PhotoSpot() {
-		super();
+		
 	}
 
 	public int getId() {
