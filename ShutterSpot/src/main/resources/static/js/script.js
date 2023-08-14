@@ -8,8 +8,6 @@ window.addEventListener('load', function(e) {
 function init() {
 
 	loadShutterSpots();
-	        document.getElementById("totalSpots").textContent = `Total Spots: ${spotList.length}`;
-
 
 	document.getElementById('deleteSpot').addEventListener('click', function() {
 		let spotId = document.getElementById('editSpotId').value;
@@ -60,7 +58,7 @@ function init() {
 
 function loadShutterSpots() {
 	let xhr = new XMLHttpRequest();
-	xhr.open('GET', 'api/photospot');
+	xhr.open('GET', 'api/photospots');
 	xhr.onreadystatechange = function() {
 		if (xhr.readyState === 4) {
 			if (xhr.status === 200) {
@@ -92,8 +90,7 @@ function displaySpot(newSpot) {
 function displaySpotList(spotList) {
     if (spotList && Array.isArray(spotList)) {
         let tbody = document.getElementById("spotTableBody");
-        
-        // Display total number of spots
+     
         document.getElementById("totalSpots").textContent = `Total Spots: ${spotList.length}`;
 
         for (let spot of spotList) {
