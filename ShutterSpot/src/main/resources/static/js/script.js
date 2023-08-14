@@ -8,6 +8,8 @@ window.addEventListener('load', function(e) {
 function init() {
 
 	loadShutterSpots();
+	        document.getElementById("totalSpots").textContent = `Total Spots: ${spotList.length}`;
+
 
 	document.getElementById('deleteSpot').addEventListener('click', function() {
 		let spotId = document.getElementById('editSpotId').value;
@@ -90,6 +92,10 @@ function displaySpot(newSpot) {
 function displaySpotList(spotList) {
     if (spotList && Array.isArray(spotList)) {
         let tbody = document.getElementById("spotTableBody");
+        
+        // Display total number of spots
+        document.getElementById("totalSpots").textContent = `Total Spots: ${spotList.length}`;
+
         for (let spot of spotList) {
             let tr = document.createElement('tr');
             
@@ -99,21 +105,19 @@ function displaySpotList(spotList) {
             
             let tdName = document.createElement('td');
             tdName.textContent = spot.name;
+            
+            // Tooltip for additional details
             tdName.setAttribute('data-bs-toggle', 'tooltip');
-            tdName.setAttribute('data-bs-placement', 'right');
+            tdName.setAttribute('data-bs-placement', 'right');  
             tdName.setAttribute('title', `Address: ${spot.address}\nCity: ${spot.city}\nState: ${spot.state}`);
+            
             tr.appendChild(tdName);
             
             tbody.appendChild(tr);
         }
     }
-  
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl);
-});
-
 }
+
 
 
 
