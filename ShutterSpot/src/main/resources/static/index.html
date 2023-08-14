@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+
+<body class="bg-light">
+    <div class="container mt-5">
+        <!-- List Section -->
+                <h1 style="text-align: center;">Shutter SPOT!</h1>
+                <hr>
+        <div class="card mb-4">
+            <div class="card mb-4">
+                <h2>Current List of Shutter Spots</h2>
+                <table class="table table-striped">
+                    <thead align="center">
+                        <tr>
+                            <th>ID</th>
+                            <th>Park Name</th>
+                        </tr>
+                    </thead>
+                    <tbody id="spotTableBody" align="center"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Add Section -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <h2>Add a New Shutter Spot:</h2>
+                <form name="newSpotForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" name="name" id="name" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="address" class="form-label">Address</label>
+                        <input type="text" name="address" id="address" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="city" class="form-label">City</label>
+                        <input type="text" name="city" id="city" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="state" class="form-label">State</label>
+                        <input type="text" name="state" id="state" class="form-control">
+                    </div>
+                    <button name="create" id="createSpot" class="btn btn-primary">Add</button>
+                </form>
+                <div id="spotData"></div>
+            </div>
+        </div>
+
+        <!-- Edit Section -->
+        <div class="card">
+            <div class="card-body">
+                <h2>Edit A Shutter Spot</h2>
+                <div class="mb-3">
+                    <input type="number" id="editSpotId" placeholder="ENTER SPOT ID" class="form-control">
+                </div>
+                <button id="startEdit" class="btn btn-primary mb-3">Search</button>
+                <form name="editSpotForm">
+                    <div class="mb-3">
+                        <label for="editName" class="form-label">Name</label>
+                        <input type="text" name="name" id="editName" value="" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="editAddress" class="form-label">Address</label>
+                        <input type="text" name="address" id="editAddress" value="" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="editCity" class="form-label">City</label>
+                        <input type="text" name="city" id="editCity" value="" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="editState" class="form-label">State</label>
+                        <input type="text" name="state" id="editState" value="" class="form-control">
+                    </div>
+                    <button name="save" id="saveSpot" class="btn btn-success">Save Changes</button>
+                    <button id="deleteSpot" class="btn btn-danger">Delete</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

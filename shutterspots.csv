@@ -1,0 +1,51 @@
+id,name,address,city,state
+1,Golden Gate Viewpoint,"123 Bridge St.",San Francisco,CA
+2,Statue of Liberty Spot,"234 Liberty Ln.",New York,NY
+3,Grand Canyon East Rim,"345 Canyon Rd.",Flagstaff,AZ
+4,Everglades Panorama,"456 Swamp St.",Miami,FL
+5,Mount Rainier Base,"567 Mountain Dr.",Tacoma,WA
+6,Big Sur Coastline,"678 Ocean Ave.",Monterey,CA
+7,Garden of the Gods,"789 Park Pl.",Colorado Springs,CO
+8,Zion Cliffside,"890 Cliff Dr.",Springdale,UT
+9,Bryce Canyon Hoodoos,"901 Rock Rd.",Bryce,UT
+10,Arches Delicate Arch,"112 Arch Ave.",Moab,UT
+11,Olympic Peninsula,"123 Rainforest Rd.",Port Angeles,WA
+12,Yellowstone Geyser,"234 Hot Springs St.",Cheyenne,WY
+13,Smoky Mountains View,"345 Mountain Pass",Gatlinburg,TN
+14,Great Sand Dunes,"456 Desert Dr.",Alamosa,CO
+15,Acadia Seaside,"567 Coast Rd.",Bar Harbor,ME
+16,Rocky Mountains Peak,"678 Peak Ln.",Boulder,CO
+17,Redwood Forest,"789 Tall Tree St.",Eureka,CA
+18,Shenandoah Valley,"890 Valley Rd.",Front Royal,VA
+19,Death Valley Dunes,"901 Sand St.",Las Vegas,NV
+20,Glacier Park View,"112 Ice Ave.",Kalispell,MT
+21,Joshua Tree Landscape,"123 Joshua St.",Twentynine Palms,CA
+22,Crater Lake Rim,"234 Lake Ln.",Klamath Falls,OR
+23,Badlands Canyons,"345 Plateau Pl.",Rapid City,SD
+24,Petrified Forest,"456 Ancient Wood Rd.",Holbrook,AZ
+25,Lake Tahoe Vista,"567 Lake Dr.",Reno,NV
+26,Denali Summit,"678 Summit St.",Fairbanks,AK
+27,Great Basin Starry Night,"789 Dark Sky Dr.",Baker,NV
+28,Sequoia Giant Trees,"890 Big Tree Rd.",Visalia,CA
+29,Haleakala Crater,"901 Volcano St.",Kahului,HI
+30,Isle Royale Silence,"112 Island Ln.",Houghton,MI
+31,Congaree Swamp,"123 Bog St.",Columbia,SC
+32,Big Bend River,"234 River Rd.",Terlingua,TX
+33,Lassen Volcanic,"345 Lava Ln.",Redding,CA
+34,Mammoth Cave Entrance,"456 Cave Rd.",Bowling Green,KY
+35,Voyageurs Lakes,"567 Lakeview Dr.",International Falls,MN
+36,Hot Springs Bathhouse,"678 Spring St.",Hot Springs,AR
+37,Black Canyon,"789 Deep Gorge Rd.",Montrose,CO
+38,Saguaro Desert,"890 Cactus Ln.",Tucson,AZ
+39,Channel Islands Coast,"901 Island Dr.",Ventura,CA
+40,Cuyahoga Valley Scenic,"112 River Rd.",Cleveland,OH
+41,Biscayne Coral Reef,"123 Ocean Dr.",Miami,FL
+42,Guadalupe Peak,"234 Mountain Rd.",Salt Flat,TX
+43,Carlsbad Caverns Entrance,"345 Cave Dr.",Carlsbad,NM
+44,Dry Tortugas Fort,"456 Island Fort Rd.",Key West,FL
+45,Great Smoky Mountains,"567 Smoky Rd.",Cherokee,NC
+46,Pinnacles Rock Formation,"678 Stone Rd.",Soledad,CA
+47,Wrangell-St. Elias Glaciers,"789 Glacier Ln.",Copper Center,AK
+48,Kings Canyon Depths,"890 Canyon Dr.",Fresno,CA
+49,Yosemite El Capitan,"901 Granite Rd.",Merced,CA
+50,Wind Cave Boxwork,"112 Cave St.",Hot Springs,SD
