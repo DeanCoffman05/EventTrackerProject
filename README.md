@@ -1,5 +1,5 @@
 Description
-This is the beginning stages of a web based program to assist photographers of all levels in finding fun and exciting locations to take spectacular photos! Photo Spots will include names, locations, and descriptions of potential photography sites. 
+This is the beginning stages of a web based program to assist photographers of all levels in finding fun and exciting locations to take spectacular photos! Photo Spots will include names, locations, and descriptions of potential photography sites. This software is now deployed to an AWS EC2 web server! You can view the results at http://3.13.142.36:8080/ShutterSpot/
 
 
 Technologies
