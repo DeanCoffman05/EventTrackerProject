@@ -9,9 +9,9 @@ export class PhotoSpot {
 constructor(
   id: number = 0,
   name: string = '',
-  address: string,
-  city: string,
-  state: string
+  address: string = '',
+  city: string = '',
+  state: string = '',
 
 
 ) {

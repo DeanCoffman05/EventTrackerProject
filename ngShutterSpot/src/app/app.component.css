@@ -1,0 +1,5 @@
+.spothover {
+
+  transition: all 1s ease-out;
+  cursor: help;
+}
